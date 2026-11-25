@@ -4,4 +4,5 @@ TEXT = "The reply-all button should come with a warning label, because one perso
 
 os.makedirs("/output", exist_ok=True)
 with open("/output/entry.txt", "w", encoding="utf-8") as f:
-    f.write(TEXT)
+    content = TEXT
+    f.write(content)
